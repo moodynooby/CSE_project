@@ -1,0 +1,8 @@
+Machine configuration:
+------------------------------
+OS        : Linux-7.0.0-28-generic-x86_64-with-glibc2.39
+Hostname  : mint-HP-Spectre-x360-Convertible-15-df0xxx
+Python    : 3.12.3 (/home/mint/Desktop/CSE/.venv/bin/python3)
+CPU       : Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz
+CPU cores : 8 logical
+RAM       : 15,594 MB
