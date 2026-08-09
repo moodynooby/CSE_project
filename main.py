@@ -43,12 +43,6 @@ def recfact_one(n):
         return 1
     return(n*recfact_one(n-1))
 
-def recfact_one(n):
-    assert n >= 0 and int(n) == n, "positive integers only, please! :-) "
-    if n <= 1:
-        return 1
-    return(n*recfact_one(n-1))
-
 def recfact_lt(n):
     assert n >= 0 and int(n) == n, "positive integers only, please! :-) "
     if n < 2:
