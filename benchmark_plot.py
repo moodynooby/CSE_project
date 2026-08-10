@@ -200,7 +200,7 @@ def main():
             try:
                 if name == "iterfact":
                     t = time_func(
-                        lambda _: suppress_stdout(main.iterfact, n), n)
+                        lambda _: suppress_stdout(func, n), n)
                 else:
                     t = time_func(func, n)
                 results[name].append(t)
@@ -216,7 +216,7 @@ def main():
         try:
             if name == "iterfact":
                 dists[name] = time_samples(
-                    lambda _: suppress_stdout(main.iterfact, BOX_N), BOX_N)
+                    lambda _: suppress_stdout(func, BOX_N), BOX_N)
             else:
                 dists[name] = time_samples(func, BOX_N)
         except Exception:
